@@ -22,7 +22,6 @@ public class Candidate{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-
     @NotBlank
     @NotEmpty
     @Column(name="first_name")
